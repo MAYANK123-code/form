@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+     h1{
+        color: tomato;
+        font-size: x-large;
+        font-family: monospace;
+     }
+     body{
+        padding: 60px;
+        background-image: url("myphoto.jpg");
+        margin: 20px;
+     }
+     .loginbox{
+        border:yellowgreen;
+        box-sizing: border-box;
+        box-shadow:linen;
+        padding: 30px 30px;
+     }
+     .loginbox input[type="text"], input[type="password"]{
+        border:0;
+        border-bottom: 1px solid red;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        color:yellow;
+        font-size: 16px;
+     }    
+</style>
+</head>
+<body>
+  <div class="loginbox">
+    <h1>Login HERE</h1>
+    <form action="https://www.mokart.com" method="POST">
+     <p>Username</p>
+     <input type="text" name="username" placeholder="Feel free to ENTER">
+     <p>Password</p>
+     <input type="password" name="password" placeholder="Enter secret code">
+     <input type="submit" name="submit" value="login">
+</body>
+</html>
